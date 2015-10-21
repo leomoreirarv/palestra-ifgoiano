@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-br" ng-app="ifgoiano">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo Angular - IF Goiano - Outubro 2015</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="app/ifgoiano.module.js"></script>
+    <script src="app/ifgoiano.index.controller.js"></script>
+</head>
+<body ng-controller="indexCtrl">
+    <h1>{{frase}}</h1>
+    <hr/>
+    <p>Nós temos {{herois.length}} herois</p>
+    <ul>
+        <li ng-repeat="heroi in herois">
+            {{heroi.nome}} => {{heroi.poder}}
+        </li>
+    </ul>
+    <hr/>
+    <input type="text" ng-model="nome"/>
+    <h4>{{nome}}</h4>
+</body>
+</html>

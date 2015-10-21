@@ -1,0 +1,21 @@
+{
+  "name": "exemplo",
+  "authors": [
+    "Leonardo Melo Moreira <leonardomm@gmail.com>"
+  ],
+  "description": "\"Exemplo de APP Angular.js - IF Goiano - October/2015\"",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.7"
+  }
+}
